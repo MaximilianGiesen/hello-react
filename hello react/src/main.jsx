@@ -1,10 +1,11 @@
 import { createRoot } from 'react-dom/client'
+import  Header from './components/header.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
     <main>
-        <img src={new URL('./assets/react-logo.png', import.meta.url).href} alt="logo" width={40}/>
-        <h1>Fun facts about react</h1>
+        <img src={new URL('./assets/react.svg', import.meta.url).href} alt="logo" width={40}/>
+        <Header />
         <ul>
             <li>Was first released in 2013</li>
             <li>Was originally created by Jordan Walke</li>
