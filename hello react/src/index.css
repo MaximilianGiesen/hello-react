@@ -36,7 +36,8 @@ nav > span {
 }
 
 main {
-    padding: 20px;
+    height: 460px;
+    padding: 25px;
     background: #282D35 url("./assets/reactjs-icon 2.png") no-repeat right;
     background-size: contain;
 }
