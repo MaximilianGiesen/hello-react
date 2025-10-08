@@ -37,6 +37,10 @@ main {
     width: 55px;
 }
 
+::marker {
+    color: #45D8FF;
+}
+
 footer  {
     padding: 20px;
     text-align: center;
