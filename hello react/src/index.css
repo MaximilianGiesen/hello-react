@@ -1,26 +1,43 @@
 body {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
+    background: #5c5e62;
     color: white;
 }
 
 #root {
     max-width: 960px;
     margin: 0 auto;
-}
-
-h1 {
-    margin-top: 30px;
+    background: #333538;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 header {
+    padding: 20px;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
+}
+
+main {
+    padding: 0 20px 0 20px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 10px;
+    font-size: 1.25em;
+}
+
+.logo {
+    width: 55px;
+}
+
+footer  {
+    padding: 20px;
+    text-align: center;
 }
