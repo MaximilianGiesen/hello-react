@@ -5,6 +5,22 @@ body {
     color: white;
 }
 
+#root {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 h1 {
     margin-top: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
